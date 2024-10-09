@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #1a06d3;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome {
+    margin-top: 20px;
+}
+
+.welcome h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+#about {
+    background: #f4f4f4;
+}
+
+#projects {
+    background: #fff;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1 1 30%;
+    background: #f9f9f9;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    margin-top: 10px;
+}
+
+#contact form input, 
+#contact form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Definiere das Aussehen des Elements */
+.box {
+    width: 80px;
+    height: 10px;
+    background-color: rgb(89, 8, 100);
+    position: relative;
+}
+
+/* Definiere die Animation mit @keyframes */
+@keyframes moveRight {
+    0% { left: 0; }
+    100% { left: 1920px; }
+}
+
+/* Wende die Animation auf das Element an */
+.box {
+    animation: moveRight 2s ease-in-out infinite;
+}
+

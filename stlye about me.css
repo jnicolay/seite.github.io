@@ -1,0 +1,96 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #32878a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #32a1bd;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+.about .info {
+    max-width: 600px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Hobbies Section */
+.hobbies {
+    background-color: #eaeaea;
+    padding: 30px;
+    text-align: center;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1d9452;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

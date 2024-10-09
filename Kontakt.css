@@ -1,0 +1,16 @@
+.content {
+    font-family: Arial, sans-serif;
+   /* Verlauf von oben nach unten, von Blau zu Rot zu Gelb */
+
+}
+
+.footer {
+    background-color: rgb(128, 45, 45);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
